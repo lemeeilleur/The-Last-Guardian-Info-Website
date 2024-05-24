@@ -1,0 +1,87 @@
+body {
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings: 0, 0, 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 20px black;
+    z-index: 1000;
+}
+
+.logo {
+    margin: 0px auto -15px -20px;
+    float: right;
+}
+
+.nav-links {
+    margin: 20px;
+    display: flex;
+    gap: 15px
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+        
+.nav-links a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.title{
+    margin-top: 120px;
+}
+
+.plot {
+    margin: 30px 8% 30px 8%;
+}
+
+.characters{
+    display: flex;
+    margin: 30px auto 30px 8%;
+}
+
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    background-color: #1111;
+    border-radius: 15px;
+    margin: 8px;
+    padding: 15px;
+}
+
+.contacts{
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.text2{
+    width: 600px;
+    margin: 0px auto 0px 3%;
+    float: right;
+}
